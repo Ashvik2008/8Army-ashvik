@@ -138,15 +138,21 @@ nav img {
     position: relative;
     left: 17%;
     border-radius: 5px;
-    margin-top: 25px
+    margin-top: 25px;
+    transition: 0.5s;
+    cursor: context-menu
 }
 
+.box:hover {
+    transform: scale(1.2);
+    transition: 0.5s
+}
 .box h1 {
     font-size: 43px;
-position: absolute;
-left: 15px;
-font-weight: 200;
-color: #fff;
+    position: absolute;
+    left: 15px;
+    font-weight: 200;
+    color: #fff;
 }
 
 p{
